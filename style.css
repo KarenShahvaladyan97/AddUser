@@ -1,0 +1,149 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .user,
+        .addUser {
+            background-color: rgba(232, 232, 232, 0.21);
+            border: 2px solid #17a2b8;
+            margin: 45px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            font-size: 20px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        
+        .users {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+        
+        .person {
+            margin: 10px;
+            width: 250px;
+            border: 2px solid #17a2b8;
+            background-color: rgba(232, 232, 232, 0.21);
+            border-radius: 10px;
+        }
+        
+        .imgEditEye {
+            margin-top: 10px;
+            display: flex;
+            padding: 5px;
+        }
+        
+        .img {
+            margin-left: 70px;
+            width: 100px;
+            height: 90px;
+            border-radius: 50%;
+            margin-right: 15px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .edit {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            background-image: url(./OOjs_UI_icon_edit-ltr-progressive.svg);
+            background-size: cover;
+        }
+        
+        .eye {
+            width: 20px;
+            height: 20px;
+            background-image: url(./103796_view_icon.svg);
+            background-size: cover;
+        }
+        
+        .description {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .description p {
+            margin: 7px;
+        }
+        
+        .name {
+            font-size: 20px;
+            font-family: muli, sans-serif;
+            color: #434a54;
+        }
+        
+        .ceo {
+            font-size: 12px;
+            font-family: muli, sans-serif;
+            color: #d1d3d4;
+        }
+        
+        .tel {
+            font-size: 14px;
+            font-family: muli, sans-serif;
+            color: #6c757d;
+        }
+        
+        .addres {
+            font-weight: 400;
+            line-height: 1.5;
+            color: #d1d3d4;
+        }
+        
+        .userData {
+            padding: 10px;
+        }
+        
+        .userData p {
+            margin: 5px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+        
+        form input {
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            width: 200px;
+            border: 2px solid #17a2b8;
+            padding: 3px;
+            text-indent: 2px;
+            border-radius: 10px;
+        }
+        
+        .modal-content {
+            width: 400px;
+            border: 2px solid #17a2b8;
+            border-radius: 10px;
+            padding: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .modal-footer {
+            justify-content: center;
+        }
+        
+        .des {
+            padding: 2px;
+            margin: 5px;
+            border-radius: 10px;
+            border: 2px solid #17a2b8;
+        }
